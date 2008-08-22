@@ -1,3 +1,4 @@
+; Common Lisp version (tested using clisp), author: Rune Hammersland
 (defun discountp (name)
   (let ((wednesday (= 2 (nth-value 6 (get-decoded-time))))
         (egenkomp  (search "egenkomponert" (string-downcase name))))

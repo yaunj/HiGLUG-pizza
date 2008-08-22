@@ -1,3 +1,4 @@
+# Over engineered Ruby version, author: Rune Hammersland
 class Pizza
   attr_reader :name, :weight, :price
 

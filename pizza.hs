@@ -1,3 +1,4 @@
+-- Haskell version, author: Kjetil Ørbekk
 import System.Random
 import System.Environment
 

@@ -1,4 +1,4 @@
-; HiGLUG Pizza order generator, scheme implementation.
+; Scheme implementation (tested in mzscheme), author: Rune Hammersland
 ; First: Handy vars.
 (define prize-max 1200)
 (define el-cheapo 119)

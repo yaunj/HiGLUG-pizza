@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-
+# Python version, author: Stian Husemoen
 import random, pprint, calendar, time, sys, math
 
 meal = 0.4
