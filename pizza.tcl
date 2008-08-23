@@ -53,8 +53,7 @@ set nom_nom {}
 
 for {set i 0} {$i < [expr ceil($meal * $man_eaters)]} {incr i} {
      set next_pizza [lindex $buf $i]
-     set next_price [expr $regular_price + [lindex [lindex $f00dz 
-[lsearch $f00dz *$next_pizza*] ] $offset_index]]
+     set next_price [expr $regular_price + [lindex [lindex $f00dz [lsearch $f00dz *$next_pizza*] ] $offset_index]]
 
      if {$total + $next_price >= $max_price} {
          break
